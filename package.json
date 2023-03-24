@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port 3000",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@syncfusion/ej2-vue-maps": "^21.1.35",
+    "colormap": "^2.3.2",
     "core-js": "^3.8.3",
+    "ol": "^7.3.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {
